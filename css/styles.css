@@ -96,4 +96,70 @@ img {
   color: rgba(131, 136, 143, 1);
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+  color: rgba(51, 61, 75, 1);
+}
+
+.nav__link--active {
+  color: rgba(51, 61, 75, 1);
+}
+
+/* Main */
+
+.main {
+  flex-grow: 1;
+  margin-top: 120px;
+}
+
+.hero .container {
+  margin-bottom: 135px;
+  padding: 115px 85px;
+  background-image: url(../image/back-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.2s ease;
+}
+
+.hero .container:hover {
+  background-image: url(../image/back-image-hover.jpg);
+}
+
+.hero__box {
+  width: 500px;
+}
+
+.hero___heading {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: rgba(254, 252, 247, 1);
+}
+
+.hero___description {
+  width: 400px;
+  margin-bottom: 56px;
+}
+
+.hero___link {
+  padding: 15px;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(254, 252, 247, 1);
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(14, 135, 132, 1);
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.hero___link:hover {
+  background-color: rgba(102, 210, 207, 1);
 }
